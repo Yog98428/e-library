@@ -1,0 +1,52 @@
+name: e_library
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.11.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^0.5.12+4
+  google_fonts: any
+  http: any
+  strings: ^0.2.2 
+  flutter_svg: any
+  flushbar: ^1.10.4
+  intl: any
+  dio: any
+  path_provider: any
+  file_utils: any
+  permission_handler: ^4.4.0
+  ext_storage: any
+  random_string: any
+  # permission_handler: ^6.1.1
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.8.0"
+  flutter_launcher_name: "^0.0.1"
+
+flutter_launcher_name:
+  name: "E-Library"
+
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/icons/ic_launcher.png"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
